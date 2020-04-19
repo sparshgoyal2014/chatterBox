@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375343636862",
+    "firebase_url": "https://chatterbox-6bd2d.firebaseio.com",
+    "project_id": "chatterbox-6bd2d",
+    "storage_bucket": "chatterbox-6bd2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375343636862:android:5b841a57a303fb7591d32f",
+        "android_client_info": {
+          "package_name": "com.example.chatterbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375343636862-joiuug9ef7tnk3pk8j282kuuuh27uv9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKBW_LlGon6540JxLJ2WxCYtUJkUyQfVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375343636862-joiuug9ef7tnk3pk8j282kuuuh27uv9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

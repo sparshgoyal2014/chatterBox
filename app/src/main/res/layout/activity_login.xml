@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login to your Account"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="16dp"
+            app:met_floatingLabel="highlight"
+            android:hint="Email"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            app:met_floatingLabel="highlight"
+            android:hint="Password"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/login"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#FFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgetPassword"
+            android:gravity="center"
+            android:text="Did you forgot your password ?"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="end"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="or sign in with google"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
